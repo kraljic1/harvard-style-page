@@ -1,13 +1,16 @@
 {
-  "name": "harvard-2005-replica",
+  "name": "vintage-threads-webshop",
   "version": "1.0.0",
-  "description": "A modern React recreation of Harvard's 2005 website",
+  "description": "Vintage Threads - Premium clothing webshop with 2005 Harvard-inspired design",
   "type": "module",
+  "homepage": "https://vintage-threads-webshop.netlify.app",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "echo 'Using static HTML - no build required'",
     "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "deploy": "netlify deploy --prod --dir=.",
+    "deploy:preview": "netlify deploy --dir=."
   },
   "dependencies": {
     "react": "^18.2.0",

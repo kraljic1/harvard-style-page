@@ -1,0 +1,6 @@
+# Netlify redirects file
+# Redirect root to main page
+/  /harvard-2005.html  301
+
+# Handle any other routes to main page (SPA fallback)
+/*  /harvard-2005.html  200

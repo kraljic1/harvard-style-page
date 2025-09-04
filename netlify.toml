@@ -1,0 +1,50 @@
+[build]
+  # Directory to publish (the build output directory)
+  publish = "."
+  
+  # Build command (we're using a static HTML file, so no build needed)
+  command = "echo 'No build required - using static HTML'"
+
+[build.environment]
+  # Node version for any future builds
+  NODE_VERSION = "18"
+
+[[redirects]]
+  # Handle client-side routing for SPA
+  from = "/*"
+  to = "/harvard-2005.html"
+  status = 200
+  conditions = {Role = ["admin"]}
+
+[[redirects]]
+  # Default redirect to main page
+  from = "/"
+  to = "/harvard-2005.html"
+  status = 301
+
+[[headers]]
+  # Security headers
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://images.unsplash.com; img-src 'self' data: https://images.unsplash.com; font-src 'self' https://cdn.jsdelivr.net;"
+
+[[headers]]
+  # Cache static assets
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  # Cache CSS and JS
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
