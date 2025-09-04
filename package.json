@@ -2,30 +2,25 @@
   "name": "vintage-threads-webshop",
   "version": "1.0.0",
   "description": "Vintage Threads - Premium clothing webshop with 2005 Harvard-inspired design",
-  "type": "module",
   "homepage": "https://vintage-threads-webshop.netlify.app",
   "scripts": {
-    "dev": "vite",
-    "build": "echo 'Using static HTML - no build required'",
-    "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "start": "python3 -m http.server 8000 || python -m http.server 8000",
     "deploy": "netlify deploy --prod --dir=.",
     "deploy:preview": "netlify deploy --dir=."
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
+  "keywords": [
+    "vintage",
+    "clothing",
+    "webshop",
+    "ecommerce",
+    "fashion",
+    "retro",
+    "2005",
+    "harvard-style"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.55.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "netlify-cli": "^16.0.0"
   }
 }
