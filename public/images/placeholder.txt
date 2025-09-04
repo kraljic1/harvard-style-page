@@ -1,0 +1,14 @@
+# Placeholder file to create images directory structure
+
+This directory should contain the following images to match the 2005 Harvard website:
+
+- harvard-shield.gif - Harvard University shield/logo
+- nav_bullet.gif - Navigation bullet points  
+- nav2_bullet.gif - Secondary navigation bullet points
+- footer_bull.gif - Footer bullet points
+- featured-title.gif - Featured section title image
+- stem-cell-research.jpg - Stem cell research laboratory image
+- jay-light.jpg - Photo of Jay O. Light
+- cell-death-researchers.jpg - Photo of Junying Yuan and Alexei Degterev
+
+For development purposes, you can use placeholder images or find appropriate replacements that match the 2005 aesthetic.

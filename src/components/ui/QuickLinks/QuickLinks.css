@@ -1,0 +1,28 @@
+.quick-links {
+  margin-top: 20px;
+}
+
+.quick-link-item {
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+.quick-link {
+  color: #000080;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.quick-link:hover {
+  color: #0000ff;
+}
+
+.quick-link-subtitle {
+  color: #000080;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.quick-link-subtitle:hover {
+  color: #0000ff;
+}

@@ -1,0 +1,8 @@
+.app {
+  min-height: 100vh;
+  background-color: #b8b894;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

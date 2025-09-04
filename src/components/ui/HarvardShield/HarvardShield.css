@@ -1,0 +1,31 @@
+.harvard-shield {
+  display: flex;
+  align-items: center;
+  background-color: #f5f2e8;
+  padding: 8px 15px;
+  margin: 6px;
+  border-radius: 0;
+}
+
+.shield-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.shield-link:hover {
+  text-decoration: none;
+}
+
+.shield-image {
+  width: 35px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.university-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
