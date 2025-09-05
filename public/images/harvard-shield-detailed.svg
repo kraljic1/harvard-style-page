@@ -1,0 +1,40 @@
+<svg width="50" height="60" viewBox="0 0 50 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield outline with Harvard Crimson -->
+  <path d="M25 2 L46 10 L46 35 C46 45 25 58 25 58 C25 58 4 45 4 35 L4 10 Z" fill="#8B1538" stroke="#4A0E1F" stroke-width="1"/>
+  
+  <!-- Inner shield -->
+  <path d="M25 4 L43 11 L43 33 C43 42 25 54 25 54 C25 54 7 42 7 33 L7 11 Z" fill="#A41E35"/>
+  
+  <!-- VERITAS banner - white background -->
+  <ellipse cx="25" cy="20" rx="16" ry="4" fill="#ffffff"/>
+  
+  <!-- VERITAS text in Harvard Crimson -->
+  <text x="25" y="23" text-anchor="middle" fill="#8B1538" font-family="Times, serif" font-size="4.5" font-weight="bold">VERITAS</text>
+  
+  <!-- Three books representing the three parts of VERITAS -->
+  <!-- Left book (VE) -->
+  <rect x="12" y="28" width="6" height="14" fill="#ffffff" stroke="#8B1538" stroke-width="0.5"/>
+  <text x="15" y="36" text-anchor="middle" fill="#8B1538" font-family="serif" font-size="2.5" font-weight="bold">VE</text>
+  
+  <!-- Center book (RI) - slightly taller -->
+  <rect x="19" y="26" width="6" height="16" fill="#ffffff" stroke="#8B1538" stroke-width="0.5"/>
+  <text x="22" y="35" text-anchor="middle" fill="#8B1538" font-family="serif" font-size="2.5" font-weight="bold">RI</text>
+  
+  <!-- Right book (TAS) -->
+  <rect x="26" y="28" width="6" height="14" fill="#ffffff" stroke="#8B1538" stroke-width="0.5"/>
+  <text x="29" y="36" text-anchor="middle" fill="#8B1538" font-family="serif" font-size="2.5" font-weight="bold">TAS</text>
+  
+  <!-- Book spine details -->
+  <line x1="14" y1="28" x2="14" y2="42" stroke="#8B1538" stroke-width="0.3"/>
+  <line x1="16" y1="28" x2="16" y2="42" stroke="#8B1538" stroke-width="0.3"/>
+  <line x1="21" y1="26" x2="21" y2="42" stroke="#8B1538" stroke-width="0.3"/>
+  <line x1="23" y1="26" x2="23" y2="42" stroke="#8B1538" stroke-width="0.3"/>
+  <line x1="28" y1="28" x2="28" y2="42" stroke="#8B1538" stroke-width="0.3"/>
+  <line x1="30" y1="28" x2="30" y2="42" stroke="#8B1538" stroke-width="0.3"/>
+  
+  <!-- Decorative elements around the shield -->
+  <circle cx="10" cy="15" r="1" fill="#DAA520"/>
+  <circle cx="40" cy="15" r="1" fill="#DAA520"/>
+  <circle cx="10" cy="45" r="1" fill="#DAA520"/>
+  <circle cx="40" cy="45" r="1" fill="#DAA520"/>
+</svg>

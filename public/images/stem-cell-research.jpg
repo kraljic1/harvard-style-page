@@ -1,0 +1,40 @@
+<svg width="180" height="120" viewBox="0 0 180 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Laboratory background -->
+  <rect width="180" height="120" fill="#f8f8f8"/>
+  
+  <!-- Lab equipment/microscope -->
+  <rect x="10" y="30" width="40" height="60" fill="#666" rx="2"/>
+  <circle cx="30" cy="25" r="8" fill="#333"/>
+  <rect x="25" y="15" width="10" height="20" fill="#444"/>
+  
+  <!-- Petri dishes with stem cells -->
+  <circle cx="70" cy="40" r="12" fill="#ffffff" stroke="#ccc" stroke-width="1"/>
+  <circle cx="70" cy="40" r="8" fill="#ffebe6"/>
+  <!-- Cell colonies -->
+  <circle cx="68" cy="38" r="2" fill="#ff6b6b"/>
+  <circle cx="72" cy="42" r="1.5" fill="#ff6b6b"/>
+  <circle cx="70" cy="45" r="1" fill="#ff6b6b"/>
+  
+  <circle cx="100" cy="50" r="12" fill="#ffffff" stroke="#ccc" stroke-width="1"/>
+  <circle cx="100" cy="50" r="8" fill="#ffebe6"/>
+  <circle cx="98" cy="48" r="2" fill="#ff6b6b"/>
+  <circle cx="102" cy="52" r="1.5" fill="#ff6b6b"/>
+  <circle cx="100" cy="55" r="1" fill="#ff6b6b"/>
+  
+  <circle cx="130" cy="45" r="12" fill="#ffffff" stroke="#ccc" stroke-width="1"/>
+  <circle cx="130" cy="45" r="8" fill="#ffebe6"/>
+  <circle cx="128" cy="43" r="2" fill="#ff6b6b"/>
+  <circle cx="132" cy="47" r="1.5" fill="#ff6b6b"/>
+  <circle cx="130" cy="50" r="1" fill="#ff6b6b"/>
+  
+  <!-- Micropipette -->
+  <line x1="60" y1="20" x2="80" y2="60" stroke="#333" stroke-width="2"/>
+  <circle cx="58" cy="18" r="3" fill="#666"/>
+  
+  <!-- Lab bench -->
+  <rect x="0" y="90" width="180" height="30" fill="#ddd"/>
+  
+  <!-- Text label -->
+  <rect x="5" y="100" width="170" height="15" fill="rgba(255,255,255,0.9)"/>
+  <text x="90" y="110" text-anchor="middle" fill="#333" font-family="Arial" font-size="8">Harvard Stem Cell Research Laboratory</text>
+</svg>

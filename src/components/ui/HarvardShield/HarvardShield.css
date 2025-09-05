@@ -1,0 +1,82 @@
+.harvard-shield {
+  display: flex;
+  align-items: center;
+  background-color: #f5f2e8;
+  padding: 8px 15px;
+  margin: 6px;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+.shield-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.shield-link:hover {
+  text-decoration: none;
+}
+
+.shield-image {
+  width: 35px;
+  height: 40px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.university-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  white-space: nowrap;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 1024px) {
+  .harvard-shield {
+    padding: 6px 12px;
+    margin: 4px;
+  }
+  
+  .university-name {
+    font-size: 13px;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  .harvard-shield {
+    padding: 5px 10px;
+    margin: 3px;
+  }
+  
+  .shield-image {
+    width: 30px;
+    height: 35px;
+    margin-right: 6px;
+  }
+  
+  .university-name {
+    font-size: 12px;
+  }
+}
+
+/* Small mobile breakpoint */
+@media (max-width: 480px) {
+  .harvard-shield {
+    padding: 4px 8px;
+    margin: 2px;
+  }
+  
+  .shield-image {
+    width: 25px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .university-name {
+    font-size: 11px;
+  }
+}

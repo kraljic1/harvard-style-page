@@ -1,0 +1,61 @@
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="200" height="60" fill="#87CEEB"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="60" width="200" height="90" fill="#90EE90"/>
+  
+  <!-- Historic Harvard buildings -->
+  <!-- Main building (Widener Library style) -->
+  <rect x="60" y="30" width="80" height="50" fill="#B8860B"/>
+  <rect x="65" y="35" width="70" height="40" fill="#DAA520"/>
+  
+  <!-- Columns -->
+  <rect x="70" y="35" width="4" height="40" fill="#F5DEB3"/>
+  <rect x="80" y="35" width="4" height="40" fill="#F5DEB3"/>
+  <rect x="90" y="35" width="4" height="40" fill="#F5DEB3"/>
+  <rect x="100" y="35" width="4" height="40" fill="#F5DEB3"/>
+  <rect x="110" y="35" width="4" height="40" fill="#F5DEB3"/>
+  <rect x="120" y="35" width="4" height="40" fill="#F5DEB3"/>
+  
+  <!-- Steps -->
+  <rect x="65" y="75" width="70" height="5" fill="#A0A0A0"/>
+  <rect x="67" y="80" width="66" height="3" fill="#909090"/>
+  
+  <!-- Side buildings -->
+  <rect x="20" y="40" width="30" height="40" fill="#CD853F"/>
+  <rect x="150" y="40" width="30" height="40" fill="#CD853F"/>
+  
+  <!-- Windows -->
+  <rect x="25" y="45" width="4" height="6" fill="#4169E1"/>
+  <rect x="35" y="45" width="4" height="6" fill="#4169E1"/>
+  <rect x="25" y="55" width="4" height="6" fill="#4169E1"/>
+  <rect x="35" y="55" width="4" height="6" fill="#4169E1"/>
+  
+  <rect x="155" y="45" width="4" height="6" fill="#4169E1"/>
+  <rect x="165" y="45" width="4" height="6" fill="#4169E1"/>
+  <rect x="155" y="55" width="4" height="6" fill="#4169E1"/>
+  <rect x="165" y="55" width="4" height="6" fill="#4169E1"/>
+  
+  <!-- Trees -->
+  <circle cx="40" cy="90" r="8" fill="#228B22"/>
+  <rect x="38" y="90" width="4" height="15" fill="#8B4513"/>
+  
+  <circle cx="160" cy="90" r="8" fill="#228B22"/>
+  <rect x="158" y="90" width="4" height="15" fill="#8B4513"/>
+  
+  <!-- Pathways -->
+  <rect x="0" y="100" width="200" height="8" fill="#A0A0A0"/>
+  <rect x="95" y="80" width="10" height="25" fill="#A0A0A0"/>
+  
+  <!-- Students walking -->
+  <circle cx="30" cy="98" r="2" fill="#fdbcb4"/>
+  <rect x="28" y="100" width="4" height="8" fill="#000080"/>
+  
+  <circle cx="170" cy="98" r="2" fill="#fdbcb4"/>
+  <rect x="168" y="100" width="4" height="8" fill="#8B1538"/>
+  
+  <!-- Title -->
+  <rect x="10" y="120" width="180" height="15" fill="rgba(255,255,255,0.9)"/>
+  <text x="100" y="130" text-anchor="middle" fill="#8B1538" font-family="Arial" font-size="10" font-weight="bold">Harvard Yard - Historic Campus</text>
+</svg>

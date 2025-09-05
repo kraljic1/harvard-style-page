@@ -1,0 +1,163 @@
+.footer {
+  background-color: #8B1538;
+  border-top: 2px solid #6B1028;
+  padding: 15px 0;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.footer-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 11px;
+}
+
+.footer-nav {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  align-items: center;
+}
+
+.footer-link-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bullet {
+  color: #ffffff;
+  margin: 0 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.footer-link:hover {
+  color: #ffcc99;
+}
+
+.footer-copyright {
+  font-size: 11px;
+  color: #ffffff;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.footer-copyright p {
+  margin: 5px 0;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 12px 0;
+    margin-top: 15px;
+  }
+  
+  .footer-container {
+    padding: 0 8px;
+    font-size: 10px;
+  }
+  
+  .footer-nav {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links {
+    gap: 1px;
+  }
+  
+  .footer-bullet {
+    margin: 0 6px;
+  }
+  
+  .footer-link {
+    font-size: 10px;
+  }
+  
+  .footer-copyright {
+    font-size: 10px;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0;
+    margin-top: 12px;
+  }
+  
+  .footer-container {
+    padding: 0 5px;
+    font-size: 10px;
+  }
+  
+  .footer-nav {
+    margin-bottom: 6px;
+  }
+  
+  .footer-links {
+    justify-content: center;
+    gap: 1px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bullet {
+    margin: 0 4px;
+    font-size: 10px;
+  }
+  
+  .footer-link {
+    font-size: 10px;
+  }
+  
+  .footer-copyright {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+/* Small mobile breakpoint */
+@media (max-width: 480px) {
+  .footer {
+    padding: 8px 0;
+    margin-top: 10px;
+  }
+  
+  .footer-container {
+    padding: 0 3px;
+    font-size: 9px;
+  }
+  
+  .footer-nav {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bullet {
+    margin: 0 3px;
+    font-size: 9px;
+  }
+  
+  .footer-link {
+    font-size: 9px;
+  }
+  
+  .footer-copyright {
+    font-size: 9px;
+  }
+  
+  .footer-copyright p {
+    margin: 3px 0;
+  }
+}

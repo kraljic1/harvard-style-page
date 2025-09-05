@@ -1,0 +1,89 @@
+.quick-links {
+  margin-top: 20px;
+}
+
+.quick-link-item {
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+.quick-link {
+  color: #000080;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.quick-link:hover {
+  color: #0000ff;
+}
+
+.quick-link-subtitle {
+  color: #000080;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.quick-link-subtitle:hover {
+  color: #0000ff;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 1024px) {
+  .quick-links {
+    margin-top: 15px;
+  }
+  
+  .quick-link-item {
+    margin-bottom: 12px;
+    font-size: 10px;
+  }
+  
+  .quick-link {
+    font-size: 10px;
+  }
+  
+  .quick-link-subtitle {
+    font-size: 10px;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  .quick-links {
+    margin-top: 12px;
+    text-align: center;
+  }
+  
+  .quick-link-item {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  
+  .quick-link {
+    font-size: 10px;
+  }
+  
+  .quick-link-subtitle {
+    font-size: 10px;
+  }
+}
+
+/* Small mobile breakpoint */
+@media (max-width: 480px) {
+  .quick-links {
+    margin-top: 10px;
+  }
+  
+  .quick-link-item {
+    margin-bottom: 8px;
+    font-size: 9px;
+  }
+  
+  .quick-link {
+    font-size: 9px;
+  }
+  
+  .quick-link-subtitle {
+    font-size: 9px;
+  }
+}

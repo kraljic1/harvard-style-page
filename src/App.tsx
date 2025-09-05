@@ -1,28 +1,19 @@
-import React from 'react';
-import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
-import CategoriesSidebar from './components/sections/CategoriesSidebar';
-import FeaturedProduct from './components/sections/FeaturedProduct';
-import PromotionsSidebar from './components/sections/PromotionsSidebar';
+import React from 'react'
+import Header from './components/layout/Header/Header'
+import Navigation from './components/layout/Navigation/Navigation'
+import MainContent from './components/layout/MainContent/MainContent'
+import Footer from './components/layout/Footer/Footer'
+import './App.css'
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen">
-      {/* Main Container */}
-      <div className="brand-container">
-        <Header />
-        
-        {/* Three Column Layout */}
-        <div className="flex p-4">
-          <CategoriesSidebar />
-          <FeaturedProduct />
-          <PromotionsSidebar />
-        </div>
-        
-        <Footer />
-      </div>
+    <div className="app">
+      <Header />
+      <Navigation />
+      <MainContent />
+      <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

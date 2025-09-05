@@ -1,0 +1,121 @@
+.schools-section {
+  border: 1px solid #000000;
+  background-color: transparent;
+  font-size: 11px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: #8B1538;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.schools-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.schools-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.school-item {
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.school-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.school-link:hover {
+  text-decoration: underline;
+  color: #000080;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 1024px) {
+  .schools-section {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .section-title {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .schools-grid {
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  .schools-section {
+    padding: 6px;
+    margin-bottom: 12px;
+  }
+  
+  .section-title {
+    font-size: 10px;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+  
+  .schools-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .schools-column {
+    text-align: center;
+  }
+  
+  .school-item {
+    margin-bottom: 4px;
+  }
+  
+  .school-link {
+    font-size: 10px;
+  }
+}
+
+/* Small mobile breakpoint */
+@media (max-width: 480px) {
+  .schools-section {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .section-title {
+    font-size: 9px;
+    margin-bottom: 5px;
+  }
+  
+  .schools-grid {
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .school-item {
+    margin-bottom: 3px;
+  }
+  
+  .school-link {
+    font-size: 9px;
+  }
+}
