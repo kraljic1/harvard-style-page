@@ -1,0 +1,37 @@
+# Headers for all files
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# CSS files
+/*.css
+  Content-Type: text/css
+  Cache-Control: public, max-age=31536000
+
+# JavaScript files  
+/*.js
+  Content-Type: application/javascript
+  Cache-Control: public, max-age=31536000
+
+# Assets folder
+/assets/*
+  Cache-Control: public, max-age=31536000
+
+/assets/*.css
+  Content-Type: text/css
+  Cache-Control: public, max-age=31536000
+
+/assets/*.js
+  Content-Type: application/javascript
+  Cache-Control: public, max-age=31536000
+
+# Images
+/images/*
+  Cache-Control: public, max-age=31536000
+
+# SVG files
+/*.svg
+  Content-Type: image/svg+xml
+  Cache-Control: public, max-age=31536000
