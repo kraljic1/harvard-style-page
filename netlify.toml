@@ -12,15 +12,8 @@
 [[redirects]]
   # Handle client-side routing for SPA
   from = "/*"
-  to = "/harvard-2005.html"
+  to = "/index.html"
   status = 200
-  conditions = {Role = ["admin"]}
-
-[[redirects]]
-  # Default redirect to main page
-  from = "/"
-  to = "/harvard-2005.html"
-  status = 301
 
 [[headers]]
   # Security headers

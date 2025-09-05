@@ -1,9 +1,9 @@
 {
-  "name": "vintage-threads-webshop",
+  "name": "harvard-style-page",
   "version": "1.0.0",
-  "description": "Vintage Threads - Premium clothing webshop with 2005 Harvard-inspired design",
+  "description": "Harvard University 2005 website recreation built with modern React and TypeScript",
   "type": "module",
-  "homepage": "https://vintage-threads-webshop.netlify.app",
+  "homepage": "https://harvardstylewebshop.netlify.app",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,17 +12,15 @@
     "deploy:preview": "npm run build && netlify deploy --dir=dist"
   },
   "keywords": [
-    "vintage",
-    "clothing",
-    "webshop",
-    "ecommerce",
-    "fashion",
-    "retro",
+    "harvard",
+    "university",
     "2005",
-    "harvard-style",
+    "recreation",
     "react",
     "typescript",
-    "tailwindcss"
+    "vite",
+    "historical",
+    "website"
   ],
   "author": "Your Name",
   "license": "MIT",
