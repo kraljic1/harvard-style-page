@@ -18,7 +18,7 @@ const BottomNavigation: React.FC = () => {
     <nav className="bottom-navigation">
       <div className="bottom-nav-container">
         <ul className="bottom-nav-list">
-          {bottomNavItems.map((item, index) => (
+          {bottomNavItems.map((item) => (
             <li key={item.href} className="bottom-nav-item">
               <a 
                 href={item.href} 
