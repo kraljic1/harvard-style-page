@@ -2,11 +2,14 @@
   "name": "vintage-threads-webshop",
   "version": "1.0.0",
   "description": "Vintage Threads - Premium clothing webshop with 2005 Harvard-inspired design",
+  "type": "module",
   "homepage": "https://vintage-threads-webshop.netlify.app",
   "scripts": {
-    "start": "python3 -m http.server 8000 || python -m http.server 8000",
-    "deploy": "netlify deploy --prod --dir=.",
-    "deploy:preview": "netlify deploy --dir=."
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && netlify deploy --prod --dir=dist",
+    "deploy:preview": "npm run build && netlify deploy --dir=dist"
   },
   "keywords": [
     "vintage",
@@ -16,11 +19,27 @@
     "fashion",
     "retro",
     "2005",
-    "harvard-style"
+    "harvard-style",
+    "react",
+    "typescript",
+    "tailwindcss"
   ],
   "author": "Your Name",
   "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
   "devDependencies": {
-    "netlify-cli": "^16.0.0"
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "autoprefixer": "^10.4.21",
+    "netlify-cli": "^16.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.4"
   }
 }

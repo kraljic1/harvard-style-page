@@ -1,12 +1,9 @@
 [build]
   # Directory to publish (the build output directory)
-  publish = "."
+  publish = "dist"
   
-  # Build command (we're using a static HTML file, so no build needed)
-  command = "echo 'No build required - using static HTML'"
-  
-  # Ignore the old React build
-  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- src/ dist/"
+  # Build command for React + Vite
+  command = "npm run build"
 
 [build.environment]
   # Node version for any future builds
